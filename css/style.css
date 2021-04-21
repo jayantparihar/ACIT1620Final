@@ -1,0 +1,24 @@
+.band-name{
+    font-family: 'Indie Flower', cursive;
+}
+.body{
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.nav   {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+    background-color: #e0def4;
+    border-bottom: 2px solid #f6c177;
+    margin-bottom: 5px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    margin:15px;
+    text-align:center;
+}
