@@ -3,11 +3,17 @@
 
 <head>
     <meta name="description" content="This is the description">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Our Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class = "body" onload="nextImage()" >
 
         <nav class="nav">
             <ul>
@@ -24,27 +30,25 @@
             <section class="shop-items">
                 <div class="shop-item">
                     <span>Album 1</span>
-                    <img class="shop-item-image" id="Album 1">
+                    <img class="shop-item-image" id="Album1" alt="Album 1">
                 </div>
 
                 <div class="shop-item">
                     <span>Album 2</span>
-                    <img class="shop-item-image" id="Album 2">
+                    <img class="shop-item-image" id="Album2" alt="Album 2">
                 </div>
 
                 <div class="shop-item">
                     <span>Album 3</span>
-                    <img class="shop-item-image" id="Album 3">
+                    <img class="shop-item-image" id="Album3" alt="Album 3">
                 </div>
 
                 <div class="shop-item">
                     <span>Album 4</span>
-                    <img class="shop-item-image" id="Album 4">
+                    <img class="shop-item-image" id="Album4" alt="Album 4">
                 </div>
 
             </section>
-
-
             <section class="cart">
                 <h3 class="section-header">CART</h3>
                 <div class="cart-row">
@@ -59,7 +63,7 @@
         </div>
     </main>
 
-      <p>Prouldy made by ACIT 1620 students - Winter 2021</p>
-
+      <footer class ="footer">Prouldy made by ACIT 1620 students - Winter 2021</footer>
+<script src="scripts/app.js"></script>
 </body>
 </html>
